@@ -26,6 +26,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
  
 db.Libro = require('../models/libros.model.js')(sequelize, Sequelize); // Nueva tabla
-db.Pedido = require('../models/pedidos.model.js')(sequelize, Sequelize); // Nueva tabla
+db.Usuario = require('../models/usuarios.model.js')(sequelize, Sequelize); // Nueva tabla
  
 module.exports = db;
